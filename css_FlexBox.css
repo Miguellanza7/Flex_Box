@@ -1,0 +1,36 @@
+body{
+    background-image: linear-gradient(rgb(242, 235, 233), rgb(184, 241, 176));
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.flex-container{
+    border: #000 solid 1px;
+    background: #A5BECC;
+    padding: 20px;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    align-items: center;
+    width: 80%;
+    margin: 0 auto;
+}
+
+.caja{
+    border: 1px solid #000;
+    background-color: #F2EBE9;
+    color: black;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+    width: 130px;
+    height: 130px;
+    line-height: 120px;
+    text-align: center;
+    margin: 5px;
+}
+
+h1{
+    text-align: center;
+    color: #243A73;
+}
